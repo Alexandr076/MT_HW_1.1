@@ -14,7 +14,7 @@ public class MyThread extends Thread {
         } catch (InterruptedException e) {
 
         } finally {
-            System.out.printf("%s завершен\n", getName());
+            System. out.printf("%s завершен\n", getName());
         }
     }
 }
